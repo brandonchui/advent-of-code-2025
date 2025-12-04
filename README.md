@@ -1,1 +1,5 @@
-# Advent of code 2025
+# Advent of Code 2025
+
+Solutions for the Advent of Code 2025 in C++.
+
+The `input.txt` files can be found [here](https://adventofcode.com/2025).
