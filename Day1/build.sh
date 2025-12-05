@@ -7,7 +7,7 @@ if [[ "$1" == "-clean" ]]; then
 fi
 
 mkdir -p build
-clang++ -std=c++17 -O2 -MJ build/main.o.json -o build/main src/main.cpp
+clang++ -std=c++20 -O2 -MJ build/main.o.json -o build/main src/main.cpp
 echo "[" > build/compile_commands.json
 sed 's/,$//' build/main.o.json >> build/compile_commands.json
 echo "]" >> build/compile_commands.json
